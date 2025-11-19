@@ -1,0 +1,24 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+/* 新警报的闪烁动画 */
+@keyframes new-alert-animation {
+    0% { background-color: #fff3cd; }
+    50% { background-color: #f8d7da; }
+    100% { background-color: transparent; }
+}
+
+.new-alert {
+    animation: new-alert-animation 2s ease-out;
+}
+
+/* 价格超出范围时的样式 */
+.price-out-of-range {
+    color: #dc3545;
+    font-weight: bold;
+}
